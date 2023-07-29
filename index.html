@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="Css/style.css">
+  <title>Reserva de Viagem</title>
+</head>
+<body>
+  <header class="container-fluid bg-white text-center">
+    <nav class="navbar navbar-expand-lg bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#">Viagens dos sonhos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end bg-warning" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Contatos
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Portal</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Chat-online</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Newslatter</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">pacotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Taxas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><i class="bi bi-cart-check"></i></a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagens/2.png" class="carousel-inner d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/3.png" class="carousel-inner d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/4.png" class="carousel-inner d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="container-fluid bg-light text-justify">
+      <h1 class="p-3">Bem-vindos a mais nova agência de viagens do Brasil</h1>
+      <p class="text-justify p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione illum magni
+        quisquam id mollitia ducimus blanditiis est quia reprehenderit optio, excepturi vero ab quo dignissimos, aperiam
+        neque unde obcaecati.</p>
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-4 ">
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/paisagem.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-warning">
+              <h5 class="card-title">Pacote Familia</h5>
+              <h1 class="card-subtitle text-muted">R$ 5.000,00</h1>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            <div class="card-footer">
+              <small class="text-muted">Em até 24x</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/paisagem.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-warning">
+              <h5 class="card-title">Casal de Luxo</h5>
+              <h1 class="card-subtitle text-muted">R$ 4.000,00</h1>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            <div class="card-footer">
+              <small class="text-muted">Em até 24x</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/paisagem.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-warning">
+              <h5 class="card-title">Econômico</h5>
+              <h1 class="card-subtitle text-muted">R$ 2.000,00</h1>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            <div class="card-footer">
+              <small class="text-muted">Em até 24x</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-warning text-center p-2 ">
+      <h2>Taxas de serviços</h2>
+      <p>Aqui estão os valores do seu pacote:</p>
+      <table class="table table-warning table-striped table-hover table-bordered border-warning">
+        <thead class="table-secondary">
+          <tr>
+            <th scope="col">Serviço</th>
+            <th scope="col">Valor</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <td>Reserva de hotel</td>
+            <td>R$ 500,00</td>
+          </tr>
+          <tr>
+            <td>Compra de passagens</td>
+            <td>R$ 1.000,00</td>
+          </tr>
+          <tr>
+            <td>Aluguel de carros</td>
+            <td>R$ 300,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="container-fluid bg-light ">
+      <h1 class="text-center">Faça já seu orçamento!</h1>
+      <p class="text-center">(Alguns dos campos abaixo são obrigatórios)</p>
+      <div class="formu">
+        <form action="" method="post">
+          <fieldset>
+            <legend class="">Dados da viagem</legend>
+
+            <div class="mb-3">
+              <label class="form-label p-2" for="nome">Nome</label>
+            </div>
+            <input type="text" class="form-control m-2 " name="name" id="nome"><br><br>
+
+            <div class="mb-3">
+              <label class="form-label p-2" for="mail"> Email</label>
+            </div>
+            <input type="email" class="form-control m-2" required name="email" id="mail"><br><br>
+
+            <div class="mb-3"><label class="form-label p-2 " for="dataDIda">Data de ida</label><br>
+            </div>
+            <input type="date" class="input-cliker form-control m-2 " required name="dataIda" id="dataDIda"><br><br>
+
+            <div class="mb-3"><label class="form-label p-2 " for="dataDVolta">Data de volta</label><br>
+            </div>
+            <input type="date" class="input-cliker form-control m-2 " required name="dataVolta" id="dataDVolta"><br><br>
+          </fieldset>
+          <fieldset class="m-2">
+            <legend>Qual(ais) serviços(s) você deseja contratar?</legend>
+
+            <div class="form-check m-4"><input type="checkbox" class="input-cliker form-check-input text-justify"
+                name="passagens" value="Passagens" id="compraPassagens"><label class="form-check-label" for="compraPassagens">Compra de passagens</label>
+            </div>
+
+            <div class="form-check m-4"><input type="checkbox" class="input-cliker form-check-input" name="hospedagem" value="Hospedagem"><label>Reserva de hospedagem</label>
+            </div>
+            <div class="form-check m-4"><input type="checkbox"   class="input-cliker form-check-input" name="veiculo"
+                value="Veículo">
+                <label>
+                  Reserva de veículos
+                </label>
+              </div>
+
+          </fieldset>
+          <button class="btn btn-secondary m-2 ">Salvar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="container-fluid bg-warning text-center">
+    <p>Desenvolvido por Breno Leal</p>
+    <p>&copy;2023 - Todos os direitos reservados</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Suas comprar</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Produto adicionado ao carrinho!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+        <a href="checkout.html" type="button" class="btn btn-success">Finalizar a compra</a>
+      </div>
+    </div>
+  </div>
+</div>
+</html>
